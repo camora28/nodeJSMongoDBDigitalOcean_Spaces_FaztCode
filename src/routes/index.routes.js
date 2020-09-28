@@ -3,7 +3,7 @@ const router = Router();
 
 
 router.get('/', (req, res) => {
-    res.send('hi worlds!!')
+    res.render('upload')
 })
 
 module.exports = router;
