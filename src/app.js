@@ -17,4 +17,7 @@ app.use(morgan('dev'));
 //--Routes
 app.use(require('./routes/index.routes'))
 
+//--Static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 module.exports = app;

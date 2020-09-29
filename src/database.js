@@ -6,3 +6,4 @@ mongoose.connect('mongodb://localhost/midatabase', {
 } )
 .then(db => console.log(`Database is connected to ${db.connection.host}`))
 .catch((err) => console.err(err));
+
